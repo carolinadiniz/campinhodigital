@@ -8,3 +8,13 @@ const bar = require("./bar")
 // ask how much apples were bought
 console.log("CALCULO DE MAÇÃS\NDIGITE O NÚMERO DE MAÇÃS COMPRADAS:")
 let qt_apples = rs.questionInt(" >> ")
+
+// calcule how much pay for apples
+if (qt_apples >= 12) {
+    //more/equal than 12
+    console.log(`\n R$ 0,25 cada\n Total: R$ ${qt_apples*0.25}`)
+
+} else {
+    //bellow than 12
+    console.log(`\n R$ 0,30 cada\n Total: R$ ${qt_apples*0.30}`)
+}
