@@ -4,3 +4,7 @@
 // import modules
 const rs = require("readline-sync")
 
+console.log(" Digite dois números: ")
+let num1 = rs.questionInt(" >> ")
+let num2 = rs.questionInt(" >> ")
+
