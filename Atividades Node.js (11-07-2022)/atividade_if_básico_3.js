@@ -5,3 +5,7 @@
 // - ACESSO PERMITIDO, caso a senha seja válida.
 // - ACESSO NEGADO, caso a senha seja inválida.
 
+// Import modules
+const rs = require("readline-sync")
+const bar = require("./bar")
+
