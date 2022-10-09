@@ -17,8 +17,8 @@ let password = rs.questionInt(" >> ")
 // verify if password is correct
 bar()
 if (password === 1234) {
-    console.log("\n   ACESSO PERMITIDO   \n")
+    console.log("\n                 ACESSO PERMITIDO!\n")
 } else {
-    console.log("\n    ACESSO NEGADO!    \n")
+    console.log("\n                   ACESSO NEGADO!\n")
 }
 bar()
