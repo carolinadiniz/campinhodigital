@@ -5,3 +5,6 @@
 const rs = require("readline-sync")
 const bar = require("./bar")
 
+// ask how much apples were bought
+console.log("CALCULO DE MAÇÃS\NDIGITE O NÚMERO DE MAÇÃS COMPRADAS:")
+let qt_apples = rs.questionInt(" >> ")
