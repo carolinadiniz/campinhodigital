@@ -4,6 +4,9 @@
 
 // Importing modules
 const rs = require("readline-sync")
+function bar() {
+    console.log("====================================================")
+}
 
 // Get current year
 const current_year = new Date().getFullYear()
@@ -11,6 +14,8 @@ const current_year = new Date().getFullYear()
 // Get user year of birth
 let year_of_birth = rs.questionInt("Digite seu ano de nascimento: ")
 
+console.clear()
+bar()
 // Show to user if can or not vote
 if (current_year - year_of_birth >= 16) {
     // if yes
@@ -19,3 +24,4 @@ if (current_year - year_of_birth >= 16) {
     // if not
     console.log("\nVocê não tem a idade mínima necessária para votar.\n")
 }
+bar()
