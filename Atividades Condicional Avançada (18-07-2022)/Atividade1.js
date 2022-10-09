@@ -8,3 +8,10 @@ console.log(" Digite dois números: ")
 let num1 = rs.questionInt(" >> ")
 let num2 = rs.questionInt(" >> ")
 
+if (num1 > num2) {
+    console.log(`${num1} é maior que ${num2}`)
+} else if (num1 < num2) {
+    console.log(`${num2} é maior que ${num1}`)
+} else {
+    console.log(`Os números são iguais`)
+}
