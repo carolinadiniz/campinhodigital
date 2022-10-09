@@ -16,4 +16,4 @@ let vm = rs.questionInt(" >> ")
 DT = (distance/vm)*60
 time = [parseInt(DT/60),(DT%60)]
 
-console.log(`Você levará aproximadamente ${time[0]}h ${time[1]}min para chegar ao destino.`)
+console.log(`\n\nVocê levará aproximadamente ${time[0]}h ${time[1]}min para chegar ao destino.`)
