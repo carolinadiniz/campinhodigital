@@ -13,7 +13,7 @@ let num3 = rs.questionInt(" >>")
 console.clear()
 
 // push numbers to array
-numbers = []
+let numbers = []
 numbers.push(num1)
 numbers.push(num2)
 numbers.push(num3)
@@ -24,4 +24,6 @@ numbers.sort(function(a,b){
     if (a < b) return -1;
     return 0;
 })
+
+console.log(numbers)
 
