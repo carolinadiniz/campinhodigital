@@ -4,9 +4,7 @@
 
 // Importing modules
 const rs = require("readline-sync")
-function bar() {
-    console.log("====================================================")
-}
+const bar = require("./bar")
 
 // Get current year
 const current_year = new Date().getFullYear()
