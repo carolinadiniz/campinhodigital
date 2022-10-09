@@ -10,10 +10,18 @@ console.log("Digite 3 números inteiros: ")
 let num1 = rs.questionInt(" >>")
 let num2 = rs.questionInt(" >>")
 let num3 = rs.questionInt(" >>")
+console.clear()
 
 // push numbers to array
 numbers = []
 numbers.push(num1)
 numbers.push(num2)
 numbers.push(num3)
+
+// use method sort() to sort array
+numbers.sort(function(a,b){
+    if (a > b) return 1;
+    if (a < b) return -1;
+    return 0;
+})
 
