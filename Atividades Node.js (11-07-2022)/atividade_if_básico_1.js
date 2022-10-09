@@ -11,3 +11,11 @@ const current_year = new Date().getFullYear()
 // Get user year of birth
 let year_of_birth = rs.questionInt("Digite seu ano de nascimento: ")
 
+// Show to user if can or not vote
+if (current_year - year_of_birth >= 16) {
+    // if yes
+    console.log("\nVocê poderá votar!\n")
+} else {
+    // if not
+    console.log("\nVocê não tem a idade mínima necessária para votar.\n")
+}
