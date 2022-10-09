@@ -13,3 +13,10 @@ const bar = require("./bar")
 console.clear()
 console.log("\nDigite sua senha (apenas números):")
 let password = rs.questionInt(" >> ")
+
+// verify if password is correct
+if (password === 1234) {
+    console.log("\n   ACESSO PERMITIDO   \n")
+} else {
+    console.log("\n    ACESSO NEGADO!    \n")
+}
