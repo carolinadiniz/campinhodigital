@@ -9,3 +9,7 @@
 const rs = require("readline-sync")
 const bar = require("./bar")
 
+// asking password to user]
+console.clear()
+console.log("\nDigite sua senha (apenas números):")
+let password = rs.questionInt(" >> ")
