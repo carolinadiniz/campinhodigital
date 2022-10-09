@@ -5,3 +5,9 @@ const rs = require("readline-sync")
 
 console.log("Digite um número para saber se é par ou impar:")
 let number = rs.questionInt(" >> ")
+
+if (number % 2 == 0) {
+    console.log(`O número ${number} é PAR!`)
+} else {
+    console.log(`O número ${number} é IMPAR!`)
+}
