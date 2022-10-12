@@ -4,8 +4,21 @@
 const rs = require("readline-sync")
 
 console.log("Digite o valor inicial:")
-let inital = rs.questionInt(">>")
+let initial = rs.questionInt(">>  ")
 
 console.log("Digite o valor final:")
-let final = rs.questionInt(">>")
+let final = rs.questionInt(">>  ")
 
+if (initial<final) {
+    for(initial;initial <= final; initial++) {
+        console.log(initial)
+    }
+}
+else if(initial>final) {
+    for(initial;initial >= final; initial--) {
+        console.log(initial)
+    }
+}
+else {
+    console.log(initial)
+}
