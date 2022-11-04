@@ -1,2 +1,2 @@
-# Carolina Diniz
-Pratos favoritos: Pavê de paçoca e bolo de chocolate.
+# Campinho Digital
+Repositório para abrigar as aulas do curso Campinho Digital
