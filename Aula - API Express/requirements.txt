@@ -1,0 +1,21 @@
+Requisitos para o projeto:
+
+* O usuário deve criar, editar ou excluir um contato;
+* O usuário deve logar no sistema informando nome e email;
+* O usuário deve conectar ou desconectar do chat;
+* O usuário deve enviar e receber mensagens no chat somente entre os contatos online
+
+PROJETO ACAMPINHO
+
+O nome do projeto será ACampinho (Agenda Campinho) e vamos usar as seguintes tecnologias:
+* NODE.js: back-end do projeto;
+* MongoDB: banco de dados NoSQL orientado a documentos;
+* MongooseJS: ODM (Object Data Mapper) MonngoDB para Node.js;
+* Redis: banco de dados NoSQL para estruturas de chave valor;
+* Express: framework para aplicação web;
+* Socket.IO: módulo para comunicação real-time;
+* Node Redis: client Redis para Node.js;
+* EJS: template engine para implementação de HTML dinâmico;
+* Mocha: framework para testes automatizados;
+* SuperTest: módulo para emular requisições, utilizando teste de integração;
+* Nginx: servidor web de alta performance para arquivos estáticos.
